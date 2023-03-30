@@ -16,9 +16,9 @@ body{
 /* BMI calculator is Start here */
 .calculator-wrapper{
     width: 345px;
-    height: 645px;
+    height: 640px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     background-color: aliceblue;
