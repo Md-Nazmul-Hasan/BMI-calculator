@@ -7,7 +7,7 @@ addEventListener("click", function(){
     var weightValue = document.getElementById('weight-value').value;
     var heightValue = document.getElementById('height-value').value;
 
-   if(weightValue === ""  && heightValue === "" ){
+   if(weightValue === "" && heightValue === ""){
 
         alert("Please Enter a valid number")
         document.getElementById('BMI-display').innerText = "00.00";
@@ -49,7 +49,7 @@ addEventListener("click", function(){
      warningDisply.innerHTML = "অতিরিক্ত মোটাত্ব, মৃত্যু ঝুঁকির আশঙ্কা ডাক্তার এর পরামর্শের প্রয়োজন";
      warningDisply.style.color = "red";
     }
-    
+
    }
 
 });
