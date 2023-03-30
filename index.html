@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <!-- BMI calculator is Start here -->
+
+        <div class="body-wrapper">
+
+            <div class="calculator-wrapper">
+
+                    <!-- BMI calculator heading is Start Here -->
+
+                    <div class="calculator-heading">
+                        <h1> BMI calculator</h1>
+                    </div>
+                    <!-- BMI calculator heading is End Here -->
+                    
+                
+                        <!-- Age input Section is Start here -->
+
+                        <div class="age-section">
+                            <div class="age-section-title">
+                                <h2>Age</h2>
+                            </div>
+                            <div class="age-section-input">
+                                <input type="number" id="age-input" placeholder="Age Input Here">
+                            </div>
+                        </div>
+                        <!-- Age input Section is Start here -->
+
+
+
+                    <!-- Weight and Height Input Section Is Start Here -->
+
+                        <div class="height-weight-container">
+                            
+                            <div class="weight-item">
+                                <h3>Weight (kg)</h3>
+                                <input type="number" id="weight-value">
+                            </div>
+
+                            <div class="height-item">
+                                <h3>Height(cm)</h3>
+                                <input type="number" id="height-value">
+                            </div>
+
+                            
+
+                        </div>
+                    <!-- Weight and Height Input Section Is End Here -->
+
+
+
+
+                        <!-- Calculate Button and Others Is start here -->
+                            <div class="calculate-button-wrapper">
+
+                                <button id="calculate-button">Calculate BMI</button>
+
+                            </div> 
+                          
+                            <h3  style="text-align: center; margin-top: 19px; font-size: 22px;">Your BMI is</h3>
+
+                            <div class="BMI-display-wrapper">
+
+                               <div class="BMI-display-wrapper">
+                                 <p id="BMI-display">00.00</p>
+                               </div>
+
+                            </div>
+
+                            <div class="warning-display-wrapper">
+                                <p id="warning-display">Please enter Weight and Height</p>
+                            </div>
+
+                        <!-- Calculate Button and Others Is End here -->
+
+                       
+
+
+            </div>
+
+        </div>
+
+       
+    <!-- BMI calculator MARKUP is End here -->
+
+
+    <!-- BMI calculator Funtions is Start here -->
+    
+
+    <script src="index.js"></script>
+    <script src="test.js"></script>
+   
+  
+
+<!-- BMI calculator Funtions is END here -->
+
+</body>
+</html>
